@@ -4,3 +4,4 @@ LICENSE
 package-lock.json
 package.json
 README.md
+azure-pipelines.yml

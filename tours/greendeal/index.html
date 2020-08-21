@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title>Danurb Tours</title>
+    <link rel='shortcut icon' type='image/x-icon' href='/img/favicon.ico' />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/map_view.css">
+    <link rel="stylesheet" href="/css/endpage.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body id="page-top">
+
+    <header>
+        <a href="/index.html">
+            <img class="logo" src="/img/danurb_logo.png">
+        </a>
+    </header>
+
+    <section class="routes d-none d-sm-block" id="routes">
+
+        <section class="section content-section bg-light main-tour-section" style="display:inline" id="tour-start">
+            <div id="bg">
+                <div id="map-0" class="map current">
+                    <div class="row card-frame">
+                        <div class="col card-m">
+                            <div class="card-block px-2">
+                                <p class="small-title card-title">Your tour - </p>
+                                <p class="big-title card-subtitle tour-title"></p>
+                                <p class="small-text card-text tour-description"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="button-begin">
+                        <div class="black-b">
+                            <a class="begin">Start</a>
+                        </div>
+                        <div class="blue-b">
+                            <a class="begin">
+                                <img class="blue-button-img-2" src="/img/arrow.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section content-section bg-light" style="display:none" id="tour-map">
+            <div id="map-bg">
+                <div id="marker-container" class="map">
+                    <div class="arrow_box" id="arrow_box">
+                        <div id="close">
+                            <i class="fas fa-times"></i>
+                        </div>    
+                        <p class="help">Click on the icons to see the stations of your tour!</p>            
+                    </div>
+                    <div class="row" id="button-end">
+                        <div class="black-b">
+                            <a class="end">Finish here</a>
+                        </div>
+                        <div class="blue-b">
+                            <a class="end">
+                                <img class="blue-button-img-2" src="/img/arrow.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-modal-container">
+                    <div id="details-modal" class="details-modal">
+                        <div class="details-content">
+                            <div class="modal-row">
+                                <div class="modal-left">
+                                    <div class="row d-flex justify-content-around map-arrows">
+                                        <div class="col-6 left">
+                                            <i class="fas fa-arrow-left"></i>    
+                                        </div>
+                                        <div class="col-6 right">
+                                            <i class="fas fa-arrow-right"></i>     
+                                        </div>
+                                    </div>
+                                    <div class="details-image">
+                                        <img id="details-image" href="">
+                                    </div>
+                                </div>
+                                <div class="modal-right container">
+                                    <div id="modal-close" class="modal-close">
+                                        <i class="fas fa-times"></i>
+                                    </div>
+
+                                    <p class="tour-point-tourname tour-point-tourname-futu">TITLE</p>
+                                    <p id="marker-details-title" class="tour-point-name tour-point-name-futu">NAME</p>
+                                    <p id="marker-details-description" class="tour-point-text">DESCRIPTION</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section content-section bg-light" style="display:none" id="tour-final">
+            <div id="bg">
+                <div class="row closing-block">
+                    <div class="col-sm-6 landing">
+                        <p class="end-big">End of your Tour</p>
+                        <p class="end-small">If you’ve enjoyed the journey reload your options and start again. This
+                            time make it different!
+                        </p>
+                        <hr>
+                        <p class="tours_list">DANURB TOURS</p>
+                        <a href="/tours/combat/">
+                            <p class="combat">Combat</p>
+                        </a>
+                        <a href="/tours/futurism/">
+                            <p class="futurism">Futurism</p>
+                        </a>
+                        <a href="/tours/deeptime/">
+                            <p class="deeptime">Deep Time</p>
+                        </a>
+                        <a href="/tours/conspiracy/">
+                            <p class="conspiracy">Conspiracy</p>
+                        </a>
+                        <a href="/tours/greendeal/">
+                            <p class="green_deal">green deal</p>
+                        </a>
+                        <p class="impressum">IMPRESSUM</p>
+                        <p class="impressum-text">Concept by KÉK–Contemporary Architecture Centre<br>
+                            Contributors:<br>
+                            Eszter Dávida, project leader<br>
+                            Tímea Szőke, project manager<br>
+                            Mercédesz Jeczkó, project manager<br>
+                            Szilvi Német, content development<br>
+                            Adrienn Császár, graphic design – pictograms<br>
+                            Nóra Kaszányi, graphic design – pictograms<br>
+                            Teodóra Tóth, web design<br>
+                            Dorottya Szabó, code (CET Solutions Kft.)<br>
+                            Áron Dudás, code (CET Solutions Kft.)</p>
+                        <a href="/license.txt"><p class="license">Third party licenses</p></a>
+                            <div class="row container bottom-logos">
+                                    <div class="col-5 interreg">
+                                        <img class="interreg_logo" src="/img/interreg_white.png">
+                                    </div>
+                                    <div class="col-2 kek-logo">
+                                        <img class="kek" src="/img/invert.png">
+                                    </div>
+                                    <div class="col-5 cet-logo">
+                                        <img class="cet" src="/img/cet.png">
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="col-sm-6 closing" id="container">
+                        <div class="blue-button-e">
+                            <a class="facebook-share scroll button-firstpage" data-js="facebook-share" target="_blank">
+                                <img class="blue-button-img-e" src="/img/facebook.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="routes-mobile d-block d-sm-none">
+            <section id="slide-last" class="map-panel">
+                                    <div class="closing-content container">
+                                            <div class="row">
+                                                    <div class="col-sm-6 closing-mobile">
+                                                        <p class="end-big-mobile">End of your Tour</p>
+                                                        <p class="end-small-mobile">If you’ve enjoyed the journey reload your options and start again. This
+                                                            time make it different!
+                                                        </p>
+                                                        <hr class="hr-mobile">
+                                                        <p class="tours_list-mobile">danurb tours</p>
+                                                        <a href="/tours/combat/">
+                                                            <p class="combat-mobile">Combat</p>
+                                                        </a>
+                                                        <a href="/tours/futurism/">
+                                                            <p class="futurism-mobile">Futurism</p>
+                                                        </a>
+                                                        <a href="/tours/deeptime/">
+                                                            <p class="deeptime-mobile">Deep Time</p>
+                                                        </a>
+                                                        <a href="/tours/conspiracy/">
+                                                            <p class="conspiracy-mobile">conspiracy</p>
+                                                        </a>
+                                                        <a href="/tours/greendeal/">
+                                                            <p class="green_deal-mobile">green deal</p>
+                                                        </a>
+                                                        <p class="impressum-mobile">impressum</p>
+                                                        <p class="impressum-text-mobile">Concept by KÉK–Contemporary Architecture Centre<br>
+                                                            Contributors:<br>
+                                                            Eszter Dávida, project leader<br>
+                                                            Tímea Szőke, project manager<br>
+                                                            Mercédesz Jeczkó, project manager<br>
+                                                            Szilvi Német, content development<br>
+                                                            Adrienn Császár, graphic design – pictograms<br>
+                                                            Nóra Kaszányi, graphic design – pictograms<br>
+                                                            Teodóra Tóth, web design<br>
+                                                            Dorottya Szabó, code (CET Solutions Kft.)<br>
+                                                            Áron Dudás, code (CET Solutions Kft.)</p>
+                                                        <a href="/license.txt"><p class="license-mobile">Third party licenses</p></a>
+                                                            <div class="row bottom-logos">
+                                                                    <div class="col-4 i-logo i-logo-d">
+                                                                        <img class="i-logo" src="/img/interreg_white.png">
+                                                                    </div>
+                                                                    <div class="col-2 k-logo k-logo-d">
+                                                                        <img class="k-logo" src="/img/invert.png">
+                                                                    </div>
+                                                                    <div class="col-4 c-logo c-logo-d">
+                                                                        <img class="c-logo" src="/img/cet.png">
+                                                                    </div>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+    
+    
+    
+                                                <div class="gray-mobile">
+                                                        <p class="col-7 land-white-o-mobile">Share your travel itinerary with your peers on Facebook</p>
+                                                        </a>
+                                                </div>
+                                                <div class="col-5 blue-button-mobile">
+                                                        <a class="facebook-share scroll button-firstpage" data-js="facebook-share" target="_blank">
+                                                                <img class="blue-button-img-e" src="/img/facebook.png">
+                                                            </a>
+                                                </div>
+                                    </div>
+            </section>
+        </section>
+
+    <!--script src="/vendor/jquery/dist/jquery.js"></script-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js'></script>
+    <script src="/vendor/Scrollify/jquery.scrollify.js"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/tour.js"></script>
+
+</body>
+
+</html>

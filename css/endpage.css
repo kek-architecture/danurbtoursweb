@@ -1,0 +1,1147 @@
+@import url("/css/fonts.css");
+
+.facebook-share {
+    cursor: pointer;
+}
+
+
+.closing {
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 0px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.end {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.end-big {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+.end-small {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+
+.tours_list {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+hr {
+    color: white;
+    border-color: white;
+    background-color: white;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.combat {
+    font-family: 'Praetoria', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 2px;
+
+
+}
+
+.futurism {
+    font-family: 'Metropolia-Semibold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.deeptime {
+    font-family: 'Haext-Plain', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.conspiracy {
+    font-family: 'Alchemy', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.green_deal {
+    font-family: 'Evergreen', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    text-decoration: none;
+
+}
+
+.impressum {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+.impressum-text {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+}
+
+.license {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: left;
+    color: white;
+    font-size: 10px;  
+}
+
+.blue-button-img-e {
+    width: 100px;
+    height: 100px;
+}
+
+.gray-e {
+    position: absolute;
+    right: 0;
+    height: 170px;
+    width: 250px;
+    background-color: black;
+    bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.blue-button-e {
+    left: 0;
+    height: 170px;
+    width: 170px;
+    background-color: #3e7ef8;
+    bottom: 100px;
+    position: absolute !important;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.land-white {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.bottom-logos {
+    bottom: 10px !important;
+    position: absolute;
+}
+
+.cet {
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.kek {
+    width: 60px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.interreg_logo {
+    width: 150px;
+    height: auto;
+}
+
+
+.interreg {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.kek-logo {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cet-logo {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .interreg_logo {
+        margin-top: 10px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 830px) {
+    .cet {
+        width: 100px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .kek {
+        width: 40px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .interreg_logo {
+        width: 100px;
+        height: auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .end-big {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        text-align: left;
+        margin-top: 90px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .cet {
+        width: 150px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .kek {
+        width: 70px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .interreg_logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .end-big {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 800;
+        text-align: left;
+        margin-top: 90px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 25px;
+    }
+
+    .end-small {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+
+    .tours_list {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    hr {
+        color: white;
+        border-color: white;
+        background-color: white;
+        border-width: 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .combat {
+        font-family: 'Praetoria', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+    }
+
+    .futurism {
+        font-family: 'Metropolia-Semibold', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .deeptime {
+        font-family: 'Haext-Plain', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .conspiracy {
+        font-family: 'Alchemy', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .green_deal {
+        font-family: 'Evergreen', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: -10px;
+        text-decoration: none;
+
+    }
+
+    .impressum {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 25px;
+        margin-left: 50px;
+        text-align: left;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+    .impressum-text {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 50px;
+        margin-right: 100px;
+        text-align: left;
+        color: white;
+        font-size: 9px;
+    }
+
+    .license {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 5px;
+        text-align: left;
+        color: white;
+        font-size: 9px;  
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+    .end {
+        color: white !important;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .end-big {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        text-align: left;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 25px;
+    }
+
+    .end-small {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+
+    .tours_list {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    hr {
+        color: white;
+        border-color: white;
+        background-color: white;
+        border-width: 1px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .combat {
+        font-family: 'Praetoria', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+
+
+    }
+
+    .futurism {
+        font-family: 'Metropolia-Semibold', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .deeptime {
+        font-family: 'Haext-Plain', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .conspiracy {
+        font-family: 'Alchemy', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .green_deal {
+        font-family: 'Evergreen', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .impressum {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 13px;
+        margin-left: 50px;
+        text-align: left;
+        color: white;
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 5px;
+
+    }
+
+    .impressum-text {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 50px;
+        margin-right: 100px;
+        text-align: left;
+        color: white;
+        font-size: 12px;
+    }
+
+    .license {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 7px;
+        text-align: left;
+        color: white;
+        font-size: 12px;  
+    }
+
+    .blue-button-img-e {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gray-e {
+        position: absolute;
+        right: 0;
+        height: 170px;
+        width: 250px;
+        background-color: black;
+        bottom: 100px;
+    }
+
+    .blue-button-e {
+        left: 0;
+        height: 170px;
+        width: 170px;
+        background-color: #3e7ef8;
+        bottom: 100px;
+        position: absolute !important;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    }
+
+    .land-white {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1850px) {
+    .end {
+        color: white !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .end-big {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        font-weight: 800;
+        text-align: left;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 25px;
+    }
+
+    .end-small {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+
+    .tours_list {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    hr {
+        color: white;
+        border-color: white;
+        background-color: white;
+        border-width: 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .combat {
+        font-family: 'Praetoria', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+
+
+    }
+
+    .futurism {
+        font-family: 'Metropolia-Semibold', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .deeptime {
+        font-family: 'Haext-Plain', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .conspiracy {
+        font-family: 'Alchemy', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .green_deal {
+        font-family: 'Evergreen', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .impressum {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 30px;
+        margin-left: 50px;
+        text-align: left;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .impressum-text {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 50px;
+        margin-right: 100px;
+        text-align: left;
+        color: white;
+        font-size: 13px;
+
+    }
+
+    .license {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 10px;
+        text-align: left;
+        color: white;
+        font-size: 13px;  
+    }
+
+    .blue-button-img-e {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gray-e {
+        position: absolute;
+        right: 0;
+        height: 170px;
+        width: 250px;
+        background-color: black;
+        bottom: 100px;
+    }
+
+    .blue-button-e {
+        left: 0;
+        height: 170px;
+        width: 170px;
+        background-color: #3e7ef8;
+        bottom: 100px;
+        position: absolute !important;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    }
+
+    .land-white {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+}
+
+
+.closing-bottom {}
+
+#slide-last {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    top: 0px;
+}
+
+.end-big-mobile {
+    margin-top: 90px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.end-small-mobile {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.tours_list-mobile {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.combat-mobile {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 30px;
+    font-family: 'Praetoria', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.futurism-mobile {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 30px;
+    font-family: 'Metropolia-Semibold', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.deeptime-mobile {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 30px;
+    font-family: 'Haext-Plain', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.conspiracy-mobile {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 30px;
+    font-family: 'Alchemy', sans-serif;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.green_deal-mobile {
+    margin-top: 2px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 21px;
+    margin-left: 30px;
+    font-family: 'Evergreen', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.impressum-mobile {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.impressum-text-mobile {
+    margin-top: 5px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 11px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.license-mobile {
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 11px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-bottom: 85px; 
+}
+
+.land-white-o-mobile {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.closing-mobile {
+    height: 100%;
+    padding-right: 0px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#slide-last {
+    background: -webkit-linear-gradient(left,  rgba(0,88,255,0.7) 0%,rgba(0,88,255,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+}
+
+.hr-mobile {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blue-button-mobile {
+    position: absolute !important;
+    z-index: 1;
+    height: 150px;
+    width: 40%;
+    background-color: #3e7ef8;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.gray-mobile {
+    position: absolute;
+    height: 150px;
+    width: 60%;
+    background-color: black;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+
+.blue-button-img-mobile {
+    width: 80px;
+    height: 80px;
+}
+
+.i-logo {
+    width: 80px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.k-logo {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.c-logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.closing-block {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.landing {
+    width: 50%;
+    float:left; 
+    height: 100%;
+    background: -webkit-linear-gradient(left,  rgba(0,88,255,0.7) 0%,rgba(0,88,255,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    text-align: left!important;
+
+}
+.closing{
+    width: 50%;
+    float: right; 
+    height: 100%;
+}
+
+
+.bottom-logos {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.i-logo-d {
+    width: 33%;
+    height: 100%;
+}
+
+.k-logo-d {
+    width: 33%;
+    height: 100%;
+}
+
+.c-logo-d {
+    width: 33%;
+    height: 100%;
+}

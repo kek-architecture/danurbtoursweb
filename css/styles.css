@@ -1,0 +1,320 @@
+@import url("/css/fonts.css");
+
+
+
+
+.top {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    z-index: 999;
+    display: inline-block;
+
+}
+
+.fullpage {
+    top: 0;
+    left: 0;
+}
+
+
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    text-align: center
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #0058ffad;
+    background: -webkit-linear-gradient(left,  rgba(0,88,255,0.7) 0%,rgba(0,88,255,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+
+}
+
+header .logo {
+    margin: 10px;
+    width: 55px;
+}
+
+
+@media (min-width: 576px) {
+    header {
+        text-align: left;
+        background-color: #ffffff00;
+        background: -webkit-linear-gradient(left,  rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+        width: 100px;
+    }
+
+    header .logo {
+        width: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header .logo {
+        width: 60px;
+    }
+}
+
+
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-main {
+    position: relative;
+    padding-left: 0px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/map-large.jpg");
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/map-large.jpg");
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/map-large.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/map-large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.landing-main .desktop .landing-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.landing-main .desktop .landing-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    bottom: 0;
+    background-color: #0058ffad;
+    background: -moz-linear-gradient(left,  rgba(0,88,255,0.7) 0%, rgba(0,88,255,0.7) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,88,255,0.7) 0%,rgba(0,88,255,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,88,255,0.7) 0%,rgba(0,88,255,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80134ef2', endColorstr='#80004eea',GradientType=1 ); /* IE6-9 */
+
+}
+
+.landing-text {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.landing-text h1 {
+    color: #3e7ef9;
+    font-family: 'MontserratRegular', sans-serif;    
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+}
+
+.landing-text h1 span {
+    color: black;
+}
+
+.landing-text p {
+    color: #2c3447;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 20px;
+
+    font-size: 15px;
+}
+
+.landing-main .mobile {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.landing-main .mobile .landing-left {
+    background-color: #ffffffad;
+    background: -webkit-linear-gradient(left,  rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+
+.mobile .info {
+    position: absolute;
+    bottom: 150px;
+}
+
+.mobile .interreg_logo {
+    margin: 0;
+}
+
+.small-blue {
+    color: #3e7ef9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 50px;
+
+}
+
+.panel.content-mobile {
+    padding-top: 100px;
+    /*background: url("/img/map-large.jpg");>*/
+    background: -webkit-linear-gradient(left,  rgba(0,88,255,0.7) 0%,rgba(0,88,255,0.7) 100%), url("/img/map-large.jpg"); /* Chrome10-25,Safari5.1-6 */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (min-width: 576px) {
+
+    .panel.content-mobile {
+        background: url("/img/map-large.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .landing-text {
+        padding-top: 0px;
+        margin-left: 20px;
+    }
+
+    .landing-text h1 {
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size: 30px;
+
+    }
+
+    .landing-text p {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+    /* TODO: Responsive sizes */
+    .small-blue {
+        font-size: 12px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        margin-top: 35px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .landing-text {
+        padding-top: 0px;
+        margin-left: 50px;
+    }
+
+    .landing-text h1 {
+        font-size: 40px;
+    }
+
+    .landing-text p {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .landing-text {
+        padding-top: 20px;
+        margin-left: 50px;
+    }
+
+    .landing-text h1 {
+        font-size: 52px;
+    }
+
+    .landing-text p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .landing-text {
+        padding-top: 0px;
+        margin-left: 100px;
+    }
+
+    .landing-text h1 {
+        font-size: 65px;
+    }
+
+    .landing-text p {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1617px) {
+    .landing-text {
+        padding-top: 250px;
+        margin-left: 200px;
+    }
+
+    .landing-text h1 {
+        font-size: 65px;
+    }
+
+    .landing-text p {
+        font-size: 20px;
+    }
+}
+
+.landing-main .mobile .landing-text {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.landing-main .mobile .landing-text h1 {
+    margin-bottom: 10px;
+}
+
+.landing-main .mobile .landing-text p {
+    text-align: justify;
+}
+
+.content-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.content-mobile .card-e2 {
+    width: 80%;
+}
